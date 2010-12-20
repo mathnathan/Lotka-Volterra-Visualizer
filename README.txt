@@ -51,3 +51,15 @@ cmake ..
 This calls CMakeLists.txt from the previous directory and builds
 the binary files into the build folder.
 
+
+// ---------------------- TO DO ------------------------------//
+
+- I learned OpenGL for this program, so it's a little buggy and certainly not very clean.
+
+- There are a bunch of constants I had to experimentally derive to scale the mouse clicks to the appropriate dimensions for both windows. I'm sure there is a better way to go about doing it.
+
+- This could have eaily been written only in OpenCV, but then I wouldn't have had the excuse to learn OpenGL! =]
+
+SPECIAL THANKS:
+
+To my good friend and programming mentor Ian Johnson. http://enja.org
