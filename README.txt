@@ -1,6 +1,10 @@
-Lotka-Volterra Visualizer
-author: Nathan Crock
-website: http://mathnathan.com
+// --------Lotka-Volterra Visualizer------- //
+
+	author: Nathan Crock
+	date: 12/20/2010 16:01:30
+	website: http://mathnathan.com
+
+
 
 You'll need OpenGL, glut, and OpenCV 2.1
 
@@ -32,22 +36,16 @@ Lotka-Volterra-Visualizer
 			|	 |
 			|	 PvsT2.png - Background for the OpenCV display
 			|
-			|
-			|	//------------------------------------------------------------------//
-			|		The data folder holds the two images for the background of both
-			|		displays. You'll need to download them from my website
-			|
-			|				http://mathnathan.com/2010/12/20/lv-visual/ 
-			|	//------------------------------------------------------------------//
-			|
 			build - Where the program is built
 
 
 //--------------------Instructions----------------------------//
 
 Once you've downloaded both the backgrounds and put them in the
-data folder, all you do is cd into the build directory and type
+data folder, all you do is make a build directory and call cmake
 
+mkdir build
+cd build
 cmake ..
 
 This calls CMakeLists.txt from the previous directory and builds
